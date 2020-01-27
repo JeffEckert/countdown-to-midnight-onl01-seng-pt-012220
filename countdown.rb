@@ -5,4 +5,6 @@ def countdown
   loop do
     counter += 1 
     puts "#{number} SECOND (S)!"
+    if counter <= 0 
+      BREAK
 end
