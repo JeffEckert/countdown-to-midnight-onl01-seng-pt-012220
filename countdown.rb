@@ -2,5 +2,6 @@
 
 def countdown
   counter = 0 
-  l
+  loop do
+    
 end
