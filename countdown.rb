@@ -6,5 +6,7 @@ def countdown
     counter += 1 
     puts "#{number} SECOND (S)!"
     if counter <= 0 
-      BREAK
+      break 
+      puts "HAPPY NEW YEAR!"
+    end
 end
